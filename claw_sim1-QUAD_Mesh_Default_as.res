@@ -45,7 +45,7 @@
 
 
 
- Start of analysis : APR 17 2022 18:45:39
+ Start of analysis : APR 20 2022 14:57:42
  On the computer   : PC-Alberto
  Using O/S         : Win NT 6.2 64 bits
  For user          : alber
@@ -58,13 +58,13 @@
 
 
  ===============================================================================
- Status of the DB            : "claw_sim1-Q8_5mm_CORNER"
+ Status of the DB            : "claw_sim1-QUAD_Mesh_Default"
  ================
- DB created by BACON for alber (APR 17 2022 18:45:38)
- modified   by BACON for alber (APR 17 2022 18:45:38)
- modified   by ASEF for alber (APR 17 2022 18:45:39)
+ DB created by BACON for alber (APR 20 2022 14:57:42)
+ modified   by BACON for alber (APR 20 2022 14:57:42)
+ modified   by ASEF for alber (APR 20 2022 14:57:42)
  Release                     :   18.1- 1
- DB file name                : "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-Q8_5mm_CORNER.sdb"
+ DB file name                : "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-QUAD_Mesh_Default.sdb"
  DB size                     :         389399 (Max=       262257599)
  Memory allocated            :         390000
  Size of the garbage         :              2 (  0.00% of the DB size)
@@ -91,7 +91,7 @@
 
  ******************************************************************************
  *                                                                            *
- *      claw_sim1-Q8_5mm_CORNER                                               *
+ *      claw_sim1-QUAD_Mesh_Default                                           *
  *                                                                            *
  ******************************************************************************
 
@@ -223,7 +223,7 @@
  =============================================
 
 
- claw_sim1-Q8_5mm_CORNER                                                         
+ claw_sim1-QUAD_Mesh_Default                                                     
                                                                                  
  ======================================================================
 
@@ -257,7 +257,7 @@
  --------------------------------------------------
 
                                   G++M++K++U
- PROCESSING OF LOADS                    9398  WORDS
+ PROCESSING OF LOADS                    9402  WORDS
  MATRIX CONDENSATION                   98853
  BACK SUBSTITUTION                         0
  PRINTOUT OF RESULTS                    1946
@@ -271,20 +271,20 @@
 
    UNIT  FILE                                        NUMBER OF 1 MEGABYTES BLOCK
 
-    18   C... chanical-Stress-Analysis\claw_sim1-Q8_5mm_CORNER_as.u18          1
-     1   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w01          1
-     4   C... -Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u04          1
-     8   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w08          1
-     9   C... -Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u09          1
-    10   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w10          1
-    11   C... -Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u11          1
-    13   C... -Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u13          1
-    14   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w14          1
-    52   C... -Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u52          1
+    18   C... ical-Stress-Analysis\claw_sim1-QUAD_Mesh_Default_as.u18          1
+     1   C... Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w01          1
+     4   C... sh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u04          1
+     8   C... Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w08          1
+     9   C... sh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u09          1
+    10   C... Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w10          1
+    11   C... sh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u11          1
+    13   C... sh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u13          1
+    14   C... Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w14          1
+    52   C... sh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u52          1
 
          ESTIMATIONS FOR BCSLIB SOLVER
-     2   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w02          1
-     3   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w03          1
+     2   C... Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w02          1
+     3   C... Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w03          1
 
 
  SUMMARY OF DISK SPACE USAGE
@@ -294,12 +294,12 @@
                                 TOTAL           FREE        ALLOCATED BY SAMCEF
  -------------------------------------------------------------------------------
 
-    C:\                       471252.          57611.      >            12 OK
+    C:\                       471252.          55967.      >            12 OK
 
  -------------------------------------------------------------------------------
 
 0RECORD NO   8  WRITTEN IN STORAGE FILE NO  18
-  CPU=  0 H  0 Min  0.09 Sec.     Elapsed=  0 H  0 Min  0.09 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.06 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R=  6.2%
 1
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
@@ -353,7 +353,7 @@
 
  RECORD NO   9  WRITTEN IN STORAGE FILE NO  18
  END OF THE GENERATION OF ELEMENTS
-  CPU=  0 H  0 Min  0.11 Sec.     Elapsed=  0 H  0 Min  0.11 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.08 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R=  7.8%
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
  WORKING MEMORY ZONE AVAILABLE    :                              26199000 WORDS
@@ -369,14 +369,14 @@
 
         30 FIXATION(S) ISSUING FROM THE DATA ANALYSIS
          0 NEW FIXATION(S) ISSUING FROM THE DIAGONAL INSPECTION
-  CPU=  0 H  0 Min  0.11 Sec.     Elapsed=  0 H  0 Min  0.11 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.08 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R=  7.8%
 
  RESOLUTION BY SPARSE SOLVER
  ===========================
 
 
  Time before the resolution
-  CPU=  0 H  0 Min  0.11 Sec.     Elapsed=  0 H  0 Min  0.11 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.08 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R=  7.8%
 
  Work space available for bcslib                             26194517
  Work space bcslib, minimum 1                                   16716
@@ -385,7 +385,7 @@
  Work space bcslib incore factorization                         85028
 
  Time after the resolution
-  CPU=  0 H  0 Min  0.11 Sec.     Elapsed=  0 H  0 Min  0.11 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.08 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R=  7.8%
 
  ===========================================================
  = BCSLIB-EXT Release 4.1     ( 15 Nov 2001 )              =
@@ -425,9 +425,9 @@
                                 3.           0.03          0.08
 
  END OF THE STIFFNESS MATRIX CONDENSATION
-  CPU=  0 H  0 Min  0.11 Sec.     Elapsed=  0 H  0 Min  0.11 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.08 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R=  7.8%
 
- LOAD CASE NO        1                    TOTAL POTENTIAL ENERGY   1.193014E+06
+ LOAD CASE NO        1                    TOTAL POTENTIAL ENERGY   1.175617E+06
  ---------------------                    ----------------------
 
 
@@ -435,30 +435,30 @@
 0RESULTANTS AT NODES
  -------------------
 0                         ALONG X          ALONG Y          ALONG Z
-0A) LOADS             0.000000E+00     9.986249E+04     0.000000E+00
-0B) REACTIONS         5.045149E-08    -9.986249E+04     0.000000E+00
+0A) LOADS             0.000000E+00     9.986259E+04     0.000000E+00
+0B) REACTIONS         5.044785E-08    -9.986259E+04     0.000000E+00
 
 
  **********************************************************************
 
  END OF DISPLACEMENT STORAGE
-  CPU=  0 H  0 Min  0.12 Sec.     Elapsed=  0 H  0 Min  0.12 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.09 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R=  9.4%
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
  WORKING MEMORY ZONE AVAILABLE    :                              26199000 WORDS
 
 
  END OF STRESS STORAGE ON U18 FILE
-  CPU=  0 H  0 Min  0.12 Sec.     Elapsed=  0 H  0 Min  0.12 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.09 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R=  9.4%
 
  ===============================================================================
- Status of the DB            : "claw_sim1-Q8_5mm_CORNER"
+ Status of the DB            : "claw_sim1-QUAD_Mesh_Default"
  ================
- DB created by BACON for alber (APR 17 2022 18:45:38)
- modified   by BACON for alber (APR 17 2022 18:45:38)
- modified   by ASEF for alber (APR 17 2022 18:45:39)
+ DB created by BACON for alber (APR 20 2022 14:57:42)
+ modified   by BACON for alber (APR 20 2022 14:57:42)
+ modified   by ASEF for alber (APR 20 2022 14:57:42)
  Release                     :   18.1- 1
- DB file name                : "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-Q8_5mm_CORNER.sdb"
+ DB file name                : "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-QUAD_Mesh_Default.sdb"
  DB size                     :         422399 (Max=       262257599)
  Memory allocated            :      104800000
  Size of the garbage         :              2 (  0.00% of the DB size)
@@ -475,7 +475,7 @@
  ===============================================================================
 
  SAVING AND CLOSING OF DATA BASE
- FILE "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-Q8_5mm_CORNER.sdb"
+ FILE "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-QUAD_Mesh_Default.sdb"
 
 0DIAGNOSTICS:     0 WARNING(S),     0 ERROR(S)
 
@@ -483,25 +483,25 @@
  File size statistics
  File name                                                            Size
  -------------------------------------------------------------------------------
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w01       13928 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w03       33296 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u04      301800 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w08      195568 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u09       14064 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u11      173752 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u13       35576 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w14       20904 Bytes
- claw_sim1-Q8_5mm_CORNER_as.u18                                     479984 Bytes
+ c... _Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w01       13928 Bytes
+ c... _Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w03       33296 Bytes
+ c... esh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u04      301800 Bytes
+ c... _Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w08      195568 Bytes
+ c... esh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u09       14096 Bytes
+ c... esh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u11      173752 Bytes
+ c... esh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u13       35576 Bytes
+ c... _Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w14       20904 Bytes
+ claw_sim1-QUAD_Mesh_Default_as.u18                                 480272 Bytes
  C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\pilote.dat       189154 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w41       72080 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w42      103968 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w43       13392 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w44      103968 Bytes
- C... M-Mechanical-Stress-Analysis\claw_sim1-Q8_5mm_CORNER.sdb     2427544 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u50          48 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w51       38752 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u52       32768 Bytes
- claw_sim1-Q8_5mm_CORNER.sam                                        117792 Bytes
- C... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w80     1056000 Bytes
+ c... _Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w41       72112 Bytes
+ c... _Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w42      104256 Bytes
+ c... _Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w43       13392 Bytes
+ c... _Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w44      104256 Bytes
+ C... chanical-Stress-Analysis\claw_sim1-QUAD_Mesh_Default.sdb     2427544 Bytes
+ c... esh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u50          48 Bytes
+ c... _Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w51       38752 Bytes
+ c... esh_Default000010468.dir\claw_sim1-QUAD_Mesh_Default.u52       32768 Bytes
+ claw_sim1-QUAD_Mesh_Default.sam                                    118080 Bytes
+ C... _Default000010468.dir\claw_sim1-QUAD_Mesh_Default_as.w80     1056000 Bytes
  C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\samcef.proc       84311 Bytes
  -------------------------------------------------------------------------------

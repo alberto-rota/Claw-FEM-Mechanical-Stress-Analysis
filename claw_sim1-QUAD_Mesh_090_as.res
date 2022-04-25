@@ -45,7 +45,7 @@
 
 
 
- Start of analysis : APR 17 2022 18:45:39
+ Start of analysis : APR 20 2022 15:10:15
  On the computer   : PC-Alberto
  Using O/S         : Win NT 6.2 64 bits
  For user          : alber
@@ -53,28 +53,28 @@
 
 1
 
- MEMORY ZONE AVAILABLE FOR THE DB :                                390000 WORDS (  0.3% OF TOTAL ZONE)
- WORKING MEMORY ZONE AVAILABLE    :                             130610000 WORDS
+ MEMORY ZONE AVAILABLE FOR THE DB :                                469000 WORDS (  0.4% OF TOTAL ZONE)
+ WORKING MEMORY ZONE AVAILABLE    :                             130531000 WORDS
 
 
  ===============================================================================
- Status of the DB            : "claw_sim1-Q8_5mm_CORNER"
+ Status of the DB            : "claw_sim1-QUAD_Mesh_090"
  ================
- DB created by BACON for alber (APR 17 2022 18:45:38)
- modified   by BACON for alber (APR 17 2022 18:45:38)
- modified   by ASEF for alber (APR 17 2022 18:45:39)
+ DB created by BACON for alber (APR 20 2022 15:10:15)
+ modified   by BACON for alber (APR 20 2022 15:10:15)
+ modified   by ASEF for alber (APR 20 2022 15:10:15)
  Release                     :   18.1- 1
- DB file name                : "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-Q8_5mm_CORNER.sdb"
- DB size                     :         389399 (Max=       262257599)
- Memory allocated            :         390000
+ DB file name                : "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-QUAD_Mesh_090.sdb"
+ DB size                     :         468599 (Max=       262257599)
+ Memory allocated            :         469000
  Size of the garbage         :              2 (  0.00% of the DB size)
  Relational level            :              0
- Object counter              :            567
+ Object counter              :           2889
  Pagination flag             :        on (not yet triggered)
  Swap count                  :             40 page I/O on disk
- Used pages in memory        :             36 on              36
+ Used pages in memory        :             48 on              48
  Used records in swap file   :              0 on           39713
- Page alignment garbage      :            601 (  0.15% of the DB size)
+ Page alignment garbage      :            401 (  0.09% of the DB size)
  Archive length :            :              0
  Archive garbage :           :              0
  Archive loading endian swap :              0
@@ -82,7 +82,7 @@
  >>> Sold-to info: UNKNOWN <<<
 
 
-                             WORKSPACE MEMORY INCREASED TO :        100000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :        133000 WORDS
 
 
 
@@ -91,7 +91,7 @@
 
  ******************************************************************************
  *                                                                            *
- *      claw_sim1-Q8_5mm_CORNER                                               *
+ *      claw_sim1-QUAD_Mesh_090                                               *
  *                                                                            *
  ******************************************************************************
 
@@ -139,37 +139,46 @@
                              WORKSPACE MEMORY REDUCED   TO :             0 WORDS
 
 
-                             WORKSPACE MEMORY INCREASED TO :        100000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :        133000 WORDS
 
 
-                             WORKSPACE MEMORY REDUCED   TO :         10000 WORDS
+                             WORKSPACE MEMORY REDUCED   TO :         49000 WORDS
 
 
 
           CHARACTERISTICS OF THIS PROBLEM
           ===============================
 
-          NUMBER OF NODES                                 434
-          MAXIMUM NODE NUMBER                             434
+          NUMBER OF NODES                                2201
+          MAXIMUM NODE NUMBER                            2201
           MINIMUM NODE NUMBER                               1
           NUMBER OF INTERFACES                              0
           NUMBER OF LOCAL AXIS SYSTEMS                      0
-          TOTAL NUMBER OF ELEMENTS                        127
-          MAXIMUM ELEMENT NUMBER                          127
+          TOTAL NUMBER OF ELEMENTS                        682
+          MAXIMUM ELEMENT NUMBER                          682
           NUMBER OF GENERAL PROPERTY ENTRIES                0
           NUMBER OF ELEMENT PROPERTY ENTRIES                0
           NUMBER OF ELEMENT ATTRIBUTE ENTRIES               0
 
 
-          NUMBER OF ELEMENTS OF TYPE   15                 127
+          NUMBER OF ELEMENTS OF TYPE   15                 682
 
-                             WORKSPACE MEMORY INCREASED TO :         12000 WORDS
-
-
-                             WORKSPACE MEMORY INCREASED TO :         13000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :         52000 WORDS
 
 
-                             WORKSPACE MEMORY INCREASED TO :         22000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :         53000 WORDS
+
+
+                             WORKSPACE MEMORY INCREASED TO :         63000 WORDS
+
+
+                             WORKSPACE MEMORY INCREASED TO :         68000 WORDS
+
+
+                             WORKSPACE MEMORY INCREASED TO :         71000 WORDS
+
+
+                             WORKSPACE MEMORY INCREASED TO :         78000 WORDS
 
 
 
@@ -180,19 +189,19 @@
 
           SPARSE SOLVER
 
-                             WORKSPACE MEMORY INCREASED TO :     130609000 WORDS
+                             WORKSPACE MEMORY INCREASED TO :     130528000 WORDS
 
 
           CORE MEMORY ESTIMATION FOR BCSLIB SOLVER
           ----------------------------------------
 
-    WORK SPACE REQUIRED OUTSIDE SOLVER                                        5323
+    WORK SPACE REQUIRED OUTSIDE SOLVER                                       26551
 
-    WORK SPACE AVAILABLE INSIDE SOLVER                                   130690677
-    WORK SPACE REQUIRED FOR REORGANIZATION                                   16716
-    WORK SPACE REQUIRED FOR SYMBOLIC FACTORIZATION                           15833
-    WORK SPACE MINIMUM FOR OUT OF CORE FACTORIZATION                         48770
-    WORK SPACE RECOMMENDED FOR IN CORE FACTORIZATION                         93530
+    WORK SPACE AVAILABLE INSIDE SOLVER                                   130667449
+    WORK SPACE REQUIRED FOR REORGANIZATION                                   89692
+    WORK SPACE REQUIRED FOR SYMBOLIC FACTORIZATION                           91538
+    WORK SPACE MINIMUM FOR OUT OF CORE FACTORIZATION                        240126
+    WORK SPACE RECOMMENDED FOR IN CORE FACTORIZATION                        544691
 
 
  CHECK OF MATERIALS
@@ -223,18 +232,18 @@
  =============================================
 
 
- claw_sim1-Q8_5mm_CORNER                                                         
+ claw_sim1-QUAD_Mesh_090                                                         
                                                                                  
  ======================================================================
 
 
  NUMBER OF SUBSTRUCTURES                        1
- NUMBER OF DEGREES OF FREEDOM                 838
- NUMBER OF RETAINED D.O.F.                    838
- MAX. DIM. OF A SUBSTRUCTURE                  838
- MAX. NUMBER FOR A D.O.F.                     868
- MAX. NUMBER FOR A NODE                       434
- NUMBER OF ELEMENTS                           127
+ NUMBER OF DEGREES OF FREEDOM                4384
+ NUMBER OF RETAINED D.O.F.                   4384
+ MAX. DIM. OF A SUBSTRUCTURE                 4384
+ MAX. NUMBER FOR A D.O.F.                    4402
+ MAX. NUMBER FOR A NODE                      2201
+ NUMBER OF ELEMENTS                           682
  MAX. DIM. OF AN ELEMENT                       16
  PRINTOUT OPTIONS                          0    0    0    0   -1   -1
  ELEMENT LOADING OPTION (IFO)                   1
@@ -257,10 +266,10 @@
  --------------------------------------------------
 
                                   G++M++K++U
- PROCESSING OF LOADS                    9398  WORDS
- MATRIX CONDENSATION                   98853
+ PROCESSING OF LOADS                   48556  WORDS
+ MATRIX CONDENSATION                  571242
  BACK SUBSTITUTION                         0
- PRINTOUT OF RESULTS                    1946
+ PRINTOUT OF RESULTS                    9014
 
 
  RECORD NO   1  WRITTEN IN STORAGE FILE NO  18
@@ -271,20 +280,20 @@
 
    UNIT  FILE                                        NUMBER OF 1 MEGABYTES BLOCK
 
-    18   C... chanical-Stress-Analysis\claw_sim1-Q8_5mm_CORNER_as.u18          1
-     1   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w01          1
-     4   C... -Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u04          1
-     8   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w08          1
-     9   C... -Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u09          1
-    10   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w10          1
-    11   C... -Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u11          1
-    13   C... -Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u13          1
-    14   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w14          1
-    52   C... -Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u52          1
+    18   C... chanical-Stress-Analysis\claw_sim1-QUAD_Mesh_090_as.u18          3
+     1   C... AD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w01          1
+     4   C... -QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u04          5
+     8   C... AD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w08          2
+     9   C... -QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u09          1
+    10   C... AD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w10          1
+    11   C... -QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u11          1
+    13   C... -QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u13          1
+    14   C... AD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w14          1
+    52   C... -QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u52          1
 
          ESTIMATIONS FOR BCSLIB SOLVER
-     2   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w02          1
-     3   C... _5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w03          1
+     2   C... AD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w02          1
+     3   C... AD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w03          1
 
 
  SUMMARY OF DISK SPACE USAGE
@@ -294,25 +303,25 @@
                                 TOTAL           FREE        ALLOCATED BY SAMCEF
  -------------------------------------------------------------------------------
 
-    C:\                       471252.          57611.      >            12 OK
+    C:\                       471252.          55934.      >            19 OK
 
  -------------------------------------------------------------------------------
 
 0RECORD NO   8  WRITTEN IN STORAGE FILE NO  18
-  CPU=  0 H  0 Min  0.09 Sec.     Elapsed=  0 H  0 Min  0.09 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.19 Sec.     Elapsed=  0 H  0 Min  0.19 Sec.     R=100.0%
 1
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
- WORKING MEMORY ZONE AVAILABLE    :                              26199000 WORDS
+ WORKING MEMORY ZONE AVAILABLE    :                              26197000 WORDS
 
-0AVAILABLE WORKSPACE FOR THE ELEMENT GENERATION STEP:   26199000  WORDS
+0AVAILABLE WORKSPACE FOR THE ELEMENT GENERATION STEP:   26197000  WORDS
 
  STRUCTURE CHARACTERISTICS
  =========================
  TOTAL LENGTH     0.000000E+00
- TOTAL AREA       2.336256E+03
- TOTAL VOLUME     1.168128E+04
- TOTAL MASS       1.401753E-02
+ TOTAL AREA       2.336253E+03
+ TOTAL VOLUME     1.168126E+04
+ TOTAL MASS       1.401752E-02
 
 
  INERTIA PROPERTIES PER ELEMENT GROUPS
@@ -320,93 +329,93 @@
           GROUP                         MASS                       INERTIA                                    C.O.G.
      NUMBER   NAME                                  ABOUT X       ABOUT Y       ABOUT Z       ABOUT X       ABOUT Y       ABOUT Z
  ===================================================================================================================================
-          1   2D_MESH(1)_0         1.4017535E-02 1.8063967E+01 1.4891425E+01 3.2955392E+01-2.6131155E+01 3.1505175E+01 0.0000000E+00
+          1   2D_MESH(1)_0         1.4017518E-02 1.8064033E+01 1.4891325E+01 3.2955358E+01-2.6131083E+01 3.1505179E+01 0.0000000E+00
 
 
  INERTIAL PROPERTIES OF THE STRUCTURE
  ====================================
 
- TOTAL MASS                     1.401753E-02
+ TOTAL MASS                     1.401752E-02
 
- CENTER-OF-MASS    :  XG       -2.613116E+01
+ CENTER-OF-MASS    :  XG       -2.613108E+01
                       YG        3.150518E+01
                       ZG        0.000000E+00
 
 
  MOMENTS AND PRODUCTS OF INERTIA (IN STRUCTURAL AXIS, AT X=0, Y=0, Z=0)
 
-                     JXX        1.806397E+01
-                     JXY       -8.057653E+00
-                     JYY        1.489142E+01
+                     JXX        1.806403E+01
+                     JXY       -8.057585E+00
+                     JYY        1.489132E+01
                      JXZ        0.000000E+00
                      JYZ        0.000000E+00
-                     JZZ        3.295539E+01
+                     JZZ        3.295536E+01
 
 
  PRINCIPAL AXES AND MOMENTS OF INERTIA WITH RESPECT TO THE CENTER-OF-MASS
 
- AXIS 1:   0.000000E+00   0.000000E+00   1.000000E+00    INERTIA:   9.470227E+00
+ AXIS 1:   0.000000E+00   0.000000E+00   1.000000E+00    INERTIA:   9.470272E+00
 
- AXIS 2:  -6.459276E-01   7.633987E-01   0.000000E+00    INERTIA:   8.266359E+00
+ AXIS 2:  -6.459341E-01   7.633931E-01   0.000000E+00    INERTIA:   8.266394E+00
 
- AXIS 3:   7.633987E-01   6.459276E-01   0.000000E+00    INERTIA:   1.203868E+00
+ AXIS 3:   7.633931E-01   6.459341E-01   0.000000E+00    INERTIA:   1.203878E+00
 
  RECORD NO   9  WRITTEN IN STORAGE FILE NO  18
  END OF THE GENERATION OF ELEMENTS
-  CPU=  0 H  0 Min  0.11 Sec.     Elapsed=  0 H  0 Min  0.11 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.22 Sec.     Elapsed=  0 H  0 Min  0.22 Sec.     R=100.0%
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
- WORKING MEMORY ZONE AVAILABLE    :                              26199000 WORDS
+ WORKING MEMORY ZONE AVAILABLE    :                              26197000 WORDS
 
 
  CHECK OF THE DIAGONAL OF THE STIFFNESS MATRIX
  =============================================
 
- GREATEST DIAGONAL TERM   1.216427E+07   (NODE        124        COMP.   1)
- LOWEST DIAGONAL TERM     1.329572E+06   (NODE        434        COMP.   1)
+ GREATEST DIAGONAL TERM   1.283686E+07   (NODE       1774        COMP.   2)
+ LOWEST DIAGONAL TERM     1.417550E+06   (NODE       2201        COMP.   1)
 
- MEAN OF DIAGONAL TERMS   6.252278E+06
+ MEAN OF DIAGONAL TERMS   6.489258E+06
 
-        30 FIXATION(S) ISSUING FROM THE DATA ANALYSIS
+        18 FIXATION(S) ISSUING FROM THE DATA ANALYSIS
          0 NEW FIXATION(S) ISSUING FROM THE DIAGONAL INSPECTION
-  CPU=  0 H  0 Min  0.11 Sec.     Elapsed=  0 H  0 Min  0.11 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.23 Sec.     Elapsed=  0 H  0 Min  0.23 Sec.     R=100.0%
 
  RESOLUTION BY SPARSE SOLVER
  ===========================
 
 
  Time before the resolution
-  CPU=  0 H  0 Min  0.11 Sec.     Elapsed=  0 H  0 Min  0.11 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.23 Sec.     Elapsed=  0 H  0 Min  0.23 Sec.     R=100.0%
 
- Work space available for bcslib                             26194517
- Work space bcslib, minimum 1                                   16716
- Work space bcslib, minimum 2                                   15833
- Work space bcslib out-of-core factorization                    48770
- Work space bcslib incore factorization                         85028
+ Work space available for bcslib                             26174835
+ Work space bcslib, minimum 1                                   89692
+ Work space bcslib, minimum 2                                   91538
+ Work space bcslib out-of-core factorization                   240126
+ Work space bcslib incore factorization                        495174
 
  Time after the resolution
-  CPU=  0 H  0 Min  0.11 Sec.     Elapsed=  0 H  0 Min  0.11 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.25 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R= 25.0%
 
  ===========================================================
  = BCSLIB-EXT Release 4.1     ( 15 Nov 2001 )              =
  = multifrontal statistics                                 =
  ===========================================================
 
-     number of equations                     =             838
-     no. of nonzeroes in lower triangle of a =           11451
-     number of compressed nodes              =             374
-     no. of compressed nonzeroes in l. tri.  =            2314
-     amount of workspace currently in use    =           64131
-     max. amt. of workspace used             =        26194512
-     no. of nonzeroes in the factor l        =           32551.
-     number of super nodes                   =              71
-     number of compressed subscripts         =            2080
-     size of stack storage                   =            5347
-     maximum order of a front matrix         =              84
-     maximum size of a front matrix          =            3570
-     maximum size of a front trapezoid       =            2451
-     no. of floating point ops for factor    =      1.6311D+06
-     no. of floating point ops for solve     =      1.3439D+05
+     number of equations                     =            4384
+     no. of nonzeroes in lower triangle of a =           62868
+     number of compressed nodes              =            2044
+     no. of compressed nonzeroes in l. tri.  =           13557
+     amount of workspace currently in use    =          416422
+     max. amt. of workspace used             =        26174828
+     no. of nonzeroes in the factor l        =          242268.
+     number of super nodes                   =             384
+     number of compressed subscripts         =           15120
+     size of stack storage                   =           21470
+     maximum order of a front matrix         =             154
+     maximum size of a front matrix          =           11935
+     maximum size of a front trapezoid       =            8460
+     no. of floating point ops for factor    =      1.8040D+07
+     no. of floating point ops for solve     =      9.9099D+05
      near zero pivot monitoring activated
      number of pivots adjusted               =              0.
      factorization panel size                =             128
@@ -414,7 +423,7 @@
      solution block size                     =               8
 
      time (in seconds) for structure input   =        0.000000
-     time (in seconds) for ordering          =        0.000000
+     time (in seconds) for ordering          =        0.015625
      time (in seconds) for symbolic factor   =        0.000000
      time (in seconds) for value input       =        0.000000
 
@@ -422,12 +431,12 @@
                                          (Mbytes)      (Mbytes)
                        -----------       --------      --------
 
-                                3.           0.03          0.08
+                                3.           0.24          0.60
 
  END OF THE STIFFNESS MATRIX CONDENSATION
-  CPU=  0 H  0 Min  0.11 Sec.     Elapsed=  0 H  0 Min  0.11 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.25 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R= 25.0%
 
- LOAD CASE NO        1                    TOTAL POTENTIAL ENERGY   1.193014E+06
+ LOAD CASE NO        1                    TOTAL POTENTIAL ENERGY   1.178521E+06
  ---------------------                    ----------------------
 
 
@@ -435,47 +444,47 @@
 0RESULTANTS AT NODES
  -------------------
 0                         ALONG X          ALONG Y          ALONG Z
-0A) LOADS             0.000000E+00     9.986249E+04     0.000000E+00
-0B) REACTIONS         5.045149E-08    -9.986249E+04     0.000000E+00
+0A) LOADS             0.000000E+00     9.986233E+04     0.000000E+00
+0B) REACTIONS         3.113673E-07    -9.986233E+04     0.000000E+00
 
 
  **********************************************************************
 
  END OF DISPLACEMENT STORAGE
-  CPU=  0 H  0 Min  0.12 Sec.     Elapsed=  0 H  0 Min  0.12 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.25 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R= 25.0%
 
  MEMORY ZONE AVAILABLE FOR THE DB :                             104800000 WORDS ( 80.0% OF TOTAL ZONE)
- WORKING MEMORY ZONE AVAILABLE    :                              26199000 WORDS
+ WORKING MEMORY ZONE AVAILABLE    :                              26197000 WORDS
 
 
  END OF STRESS STORAGE ON U18 FILE
-  CPU=  0 H  0 Min  0.12 Sec.     Elapsed=  0 H  0 Min  0.12 Sec.     R=100.0%
+  CPU=  0 H  0 Min  0.27 Sec.     Elapsed=  0 H  0 Min  1.00 Sec.     R= 26.6%
 
  ===============================================================================
- Status of the DB            : "claw_sim1-Q8_5mm_CORNER"
+ Status of the DB            : "claw_sim1-QUAD_Mesh_090"
  ================
- DB created by BACON for alber (APR 17 2022 18:45:38)
- modified   by BACON for alber (APR 17 2022 18:45:38)
- modified   by ASEF for alber (APR 17 2022 18:45:39)
+ DB created by BACON for alber (APR 20 2022 15:10:15)
+ modified   by BACON for alber (APR 20 2022 15:10:15)
+ modified   by ASEF for alber (APR 20 2022 15:10:15)
  Release                     :   18.1- 1
- DB file name                : "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-Q8_5mm_CORNER.sdb"
- DB size                     :         422399 (Max=       262257599)
+ DB file name                : "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-QUAD_Mesh_090.sdb"
+ DB size                     :         527999 (Max=       262257599)
  Memory allocated            :      104800000
  Size of the garbage         :              2 (  0.00% of the DB size)
  Relational level            :              0
- Object counter              :            575
+ Object counter              :           2897
  Pagination flag             :        on (not yet triggered)
  Swap count                  :             40 page I/O on disk
- Used pages in memory        :             41 on           15855
+ Used pages in memory        :             57 on           15855
  Used records in swap file   :              0 on           39713
- Page alignment garbage      :           5201 (  1.23% of the DB size)
+ Page alignment garbage      :           5201 (  0.99% of the DB size)
  Archive length :            :              0
  Archive garbage :           :              0
  Archive loading endian swap :              0
  ===============================================================================
 
  SAVING AND CLOSING OF DATA BASE
- FILE "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-Q8_5mm_CORNER.sdb"
+ FILE "C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1-QUAD_Mesh_090.sdb"
 
 0DIAGNOSTICS:     0 WARNING(S),     0 ERROR(S)
 
@@ -483,25 +492,25 @@
  File size statistics
  File name                                                            Size
  -------------------------------------------------------------------------------
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w01       13928 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w03       33296 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u04      301800 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w08      195568 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u09       14064 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u11      173752 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u13       35576 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w14       20904 Bytes
- claw_sim1-Q8_5mm_CORNER_as.u18                                     479984 Bytes
+ c... UAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w01       70472 Bytes
+ c... UAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w03      241936 Bytes
+ c... 1-QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u04     1620480 Bytes
+ c... UAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w08     1014288 Bytes
+ c... 1-QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u09       72800 Bytes
+ c... 1-QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u11      932992 Bytes
+ c... 1-QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u13      190976 Bytes
+ c... UAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w14      105720 Bytes
+ claw_sim1-QUAD_Mesh_090_as.u18                                    2436480 Bytes
  C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\pilote.dat       189154 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w41       72080 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w42      103968 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w43       13392 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w44      103968 Bytes
- C... M-Mechanical-Stress-Analysis\claw_sim1-Q8_5mm_CORNER.sdb     2427544 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u50          48 Bytes
- c... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w51       38752 Bytes
- c... 1-Q8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER.u52       32768 Bytes
- claw_sim1-Q8_5mm_CORNER.sam                                        117792 Bytes
- C... 8_5mm_CORNER000013032.dir\claw_sim1-Q8_5mm_CORNER_as.w80     1056000 Bytes
+ c... UAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w41      360264 Bytes
+ c... UAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w42      531792 Bytes
+ c... UAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w43       13392 Bytes
+ c... UAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w44      531792 Bytes
+ C... M-Mechanical-Stress-Analysis\claw_sim1-QUAD_Mesh_090.sdb     3272856 Bytes
+ c... 1-QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u50          48 Bytes
+ c... UAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w51      207472 Bytes
+ c... 1-QUAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090.u52       65536 Bytes
+ claw_sim1-QUAD_Mesh_090.sam                                        545616 Bytes
+ C... UAD_Mesh_090000012160.dir\claw_sim1-QUAD_Mesh_090_as.w80     1056000 Bytes
  C:\PROGRA~1\Siemens\NX12~1.0\SIMULA~1\samcef\Exec\samcef.proc       84311 Bytes
  -------------------------------------------------------------------------------

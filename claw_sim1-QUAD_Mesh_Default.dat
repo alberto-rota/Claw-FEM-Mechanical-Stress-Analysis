@@ -6,11 +6,11 @@
 !              FEM FILE: C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1.sim
 !              SIM FILE: C:\Users\alber\Desktop\NX_FEM_Simulation_Files_Claw\Claw-FEM-Mechanical-Stress-Analysis\claw_sim1.sim
 !         ANALYSIS TYPE: Samcef - Axisymmetric and Other 2D Structural
-!         SOLUTION NAME: Q8_5mm_CORNER
+!         SOLUTION NAME: QUAD_Mesh_Default
 !         SOLUTION TYPE: Linear Static Analysis
-!     SOLVER INPUT FILE: claw_sim1-Q8_5mm_CORNER.dat
-!         CREATION DATE: 17-April-2022
-!         CREATION TIME: 18:45:35
+!     SOLVER INPUT FILE: claw_sim1-QUAD_Mesh_Default.dat
+!         CREATION DATE: 20-April-2022
+!         CREATION TIME: 14:57:39
 !              HOSTNAME: PC-Alberto
 !              USERNAME: alber
 ! 
@@ -641,7 +641,9 @@ TEMP 20 ! Default Temperature from Solution
 .CLM ADD
  STRU ACC VAL 0 -9810 0
 
- NOEUD 434 CHA  C 2 V 100000
+ NOEUD 430 CHA  C 2 V 66666.7
+ NOEUD 433 CHA  C 2 V 16666.7
+ NOEUD 434 CHA  C 2 V 16666.7
 
 ! Samcef Bank File: Elements Attributes
 ! -------------------------------------
